@@ -1,27 +1,29 @@
 # HW8 T1
 
-This project demonstrates basic HTML and CSS styling. The HTML file contains various elements that are styled using the CSS file.
+This is 1/2 of my homework (8)
+
+This project showcases basic HTML and CSS styling.
 
 ## HTML
 
 The HTML file includes:
 
-- A `div` element with the class `text-box` containing multiple `h3` and `p` elements.
-- Each `p` element has specific text that indicates the color it should be styled in.
+- A `div` with the class `text-box` containing multiple `h3` and `p` elements.
+- Each `p` element has specific text indicating its color.
 
 ## CSS
 
-The CSS file includes the following styles:
+The CSS file styles the elements as follows:
 
-- The first `h3` element is styled with the color pink.
-- The `p` element with the ID `greycol` is styled with the color grey.
-- The `p` element inside a `div` within the `text-box` class is styled with the color red.
-- The seventh child `p` element is styled with the color green.
-- The `p` element with the class `yellow` is styled with the color yellow.
+- The first `h3` is pink.
+- The `p` with the ID `greycol` is grey.
+- The `p` inside a `div` within the `text-box` is red.
+- The seventh `p` is green.
+- The `p` with the class `yellow` is yellow.
 
 ## Usage
 
-To use this project, simply open the `index.html` file in a web browser. The styles defined in the `style.css` file will be applied to the HTML elements.
+Open the `index.html` file in a web browser to see the styles applied.
 
 ## Example
 
@@ -40,4 +42,10 @@ To use this project, simply open the `index.html` file in a web browser. The sty
       <p>Даний елемент має залишитись неоформленим.</p>
       <p id="greycol">Пофарбуйте мене в сірий колір (color:grey).</p>
       <div>Даний елемент має залишитись неоформленим.</div>
-      <div><p>
+      <div><p>Пофарбуйте мене в червоний колір (color:red).</p></div>
+      <h3>Даний елемент має залишитись неоформленим.</h3>
+      <p>Пофарбуйте мене в зелений колір (color:green).</p>
+      <p class="yellow">Пофарбуйте мене в жовтий колір (color:yellow).</p>
+    </div>
+  </body>
+</html>
