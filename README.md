@@ -1,8 +1,6 @@
 # HW8 T1
 
-This is 1/2 of my homework (8)
-
-This project showcases basic HTML and CSS styling.
+This project demonstrates basic HTML and CSS styling.
 
 ## HTML
 
@@ -31,19 +29,45 @@ Open the `index.html` file in a web browser to see the styles applied.
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HW8 T1</title>
+    <style>
+      h3:first-of-type {
+        color: pink;
+      }
+
+      #greycol {
+        color: grey;
+      }
+
+      .text-box div p {
+        color: red;
+      }
+
+      .text-box p:nth-of-type(7) {
+        color: green;
+      }
+
+      .yellow {
+        color: yellow;
+      }
+    </style>
   </head>
   <body>
     <div class="text-box">
       <h3>Пофарбуйте мене в рожевий колір (color:pink).</h3>
       <p>Даний елемент має залишитись неоформленим.</p>
       <p id="greycol">Пофарбуйте мене в сірий колір (color:grey).</p>
-      <div>Даний елемент має залишитись неоформленим.</div>
-      <div><p>Пофарбуйте мене в червоний колір (color:red).</p></div>
-      <h3>Даний елемент має залишитись неоформленим.</h3>
+      <div>
+        Даний елемент має залишитись неоформленим.
+        <p>Пофарбуйте мене в червоний колір (color:red).</p>
+      </div>
+      <p>Даний елемент має залишитись неоформленим.</p>
+      <p>Даний елемент має залишитись неоформленим.</p>
+      <p>Даний елемент має залишитись неоформленим.</p>
+      <p>Даний елемент має залишитись неоформленим.</p>
+      <p>Даний елемент має залишитись неоформленим.</p>
       <p>Пофарбуйте мене в зелений колір (color:green).</p>
       <p class="yellow">Пофарбуйте мене в жовтий колір (color:yellow).</p>
     </div>
