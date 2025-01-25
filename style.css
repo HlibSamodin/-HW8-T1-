@@ -5,8 +5,10 @@ h3:first-child {
 #greycol {
     color: grey;
 }
-.text-box div p {
-    color: red;}
+
+p:only-child {
+    color: red;
+}
 
 p:nth-child(7) {
     color: green;
